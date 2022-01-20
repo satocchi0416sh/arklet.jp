@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkarklet=self.webpackChunkarklet||[]).push([[9302],{9302:function(e,a,t){e.exports=t.p+"static/media/bg_270.f0d861c00dd478ca6a80.png"}}]);
