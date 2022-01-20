@@ -1,0 +1,42 @@
+.about-wrapper {
+  display: flex;
+  justify-content: center;
+  min-height: 300vh;
+  height: 300vh;
+  width: 100vw;
+}
+
+.about-wrapper .block {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.about-wrapper .block-one {
+  background: #212e32b4;
+  color: #fff;
+  z-index: 100;
+  padding: 0 100px;
+}
+
+.about-wrapper .topin {
+  animation: fadeIn 0.2s ease 0.3s 1 normal;
+}
+
+@keyframes fadeIn {
+  /*animation-nameで設定した値を書く*/
+
+  0% {
+    opacity: 0;
+  } /*アニメーション開始時は不透明度0%*/
+
+  100% {
+    opacity: 1;
+  } /*アニメーション終了時は不透明度100%*/
+}
